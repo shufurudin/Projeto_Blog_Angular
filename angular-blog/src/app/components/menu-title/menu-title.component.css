@@ -1,0 +1,14 @@
+.container__menu-title > h1{
+    margin: 20px 0;
+    
+    display: flex;
+    justify-content: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 5rem;
+}
+
+hr {
+    margin: 20px 35px;
+}
