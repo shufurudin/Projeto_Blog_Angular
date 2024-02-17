@@ -14,6 +14,8 @@ export class SmallCardComponent implements OnInit {
   img_src: string = "" || `https://placehold.co/${this.stock_img_size_x}x${this.stock_img_size_y}`;
   @Input()
   card_title: string = ""
+  @Input()
+  id: string = ""
 
   constructor() { }
 

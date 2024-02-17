@@ -1,13 +1,13 @@
 <section [ngStyle]="{'width': width}" class="container__big-card">
     <div class="big-card__photo">
-        <img src={{img_src}} alt="stock-image">
+        <a [routerLink]="id"><img src={{img_src}} alt="stock-image"></a>
     </div>
     <div class="big-card__title">
-        <h1><a href="#">{{card_title}}</a></h1>
+        <h1><a [routerLink]="id">{{card_title}}</a></h1>
     </div>
     <div class="big-card__description">
         <p>
-            <a href="#">
+            <a [routerLink]="id">
                 {{card_description}}
             </a>
         </p>

@@ -7,7 +7,7 @@
     margin-bottom: 20px;
 }
 
-.small-card__photo > img {
+.small-card__photo img {
     width: 200px;
     min-width: 200px;
     min-height: 100px;

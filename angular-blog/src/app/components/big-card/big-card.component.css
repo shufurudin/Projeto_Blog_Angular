@@ -9,7 +9,7 @@
     justify-content: flex-start;
 }
 
-.big-card__photo > img {
+.big-card__photo img {
     width: 100%;
     min-width: 400px;
 }
